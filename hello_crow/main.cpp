@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 
   CROW_ROUTE(app, "/")
     ([](){
-      return "<div><h1>Hello, Bitch!.</h1></div>";
+      return "<div><h1>Hello World!.</h1></div>";
     });
 
   char* port = getenv("PORT");
